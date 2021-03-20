@@ -10,7 +10,7 @@ An updated portfolio showing off my personal and group assignments.
 * BOOTSTRAP
 
 ## Website
-https://theharv1.github.io/Shawn-portfolio/index.html
+https://theharv1.github.io/portfolio/index.html
 
 ## Contribution
 Made by Shawn 
