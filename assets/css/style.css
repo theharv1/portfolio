@@ -1,0 +1,102 @@
+    /* portfolio images */
+    
+    .port-image {
+        margin: 10px auto;
+    }
+    /* about me image */
+    
+    .about-img {
+        float: left;
+        width: 200px;
+        margin: 0 20px 10px 0;
+    }
+    /* footer css */
+    
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        line-height: 60px;
+        /* Vertically center the text there */
+        background-color: rgb(93, 158, 223) ;
+    }
+    /* short screen css */
+    
+    @media only screen and (max-height:500px) {
+        .about-img {
+            margin-bottom: 100px;
+        }
+    }
+    /* longer screen css */
+    
+    @media only screen and (min-height:501px) {
+        .about-img {
+            margin-bottom: 0;
+        }
+    }
+    /* wider screen css */
+    
+    @media only screen and (min-width: 992px) {
+        div.fixed-div {
+            position: static;
+        }
+        footer.fixed-footer {
+            position: fixed;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        footer.scroll-footer {
+            position: static;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        form.block {
+            margin-bottom: 80px;
+        }
+    }
+    /* narrow screen css */
+    
+    @media only screen and (max-width:991px) {
+        div.fixed-div {
+            position: static;
+        }
+        footer.fixed-footer {
+            position: static;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        footer.scroll-footer {
+            position: static;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        form.block {
+            margin-bottom: 20px;
+        }
+    }
+    /* submit button on contact page */
+    
+    .submit-btn {
+        background-color: rgb(93, 158, 223);
+    }
+    /* nav bar */
+    
+    .navbar {
+        background-color:rgb(93, 158, 223)!important;
+    }
+    /* start container */
+    
+    body>.container {
+        padding: 60px 15px 0;
+    }
+
+    .paragraph{
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
